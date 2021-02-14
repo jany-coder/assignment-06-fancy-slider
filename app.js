@@ -28,7 +28,7 @@ const showImages = (images, length) => {
     const alertDiv = document.createElement('div');
     alertDiv.className = 'alert';
     const alertMessage = `
-            <p class="alertMessage"> OOPS! NO MATCH FOUND </p>
+            <p class="alertMessage"> SORRY! NOTHING FOUND </p>
         `;
     alertDiv.innerHTML = alertMessage;
     alertContainer.appendChild(alertDiv);
